@@ -1,0 +1,19 @@
+:root{
+    font-size: 62.5%;
+    /* --white: #FFFFFF;
+    --black: #000000;
+    --text-input-field: #F7F7F7;
+    --orange: #FFCFAD;
+    --blue: #0FBED2; */
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+    --blue: #1c64ff;
+    --black: #504c4c;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;  
+   /* background-color: var(--black); */
+}

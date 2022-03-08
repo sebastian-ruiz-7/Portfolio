@@ -1,0 +1,10 @@
+.initials-logo{
+    background: rgb(28,100,255);
+    background: linear-gradient(180deg, rgba(28,100,255,1) 0%, rgba(0,212,255,1) 100%); 
+    /* background-clip: border-box; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    font-weight: bold;
+    
+}
