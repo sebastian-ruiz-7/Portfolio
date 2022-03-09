@@ -12,7 +12,7 @@ export const AboutMe = () => {
     <>
       <Header />
 
-      <main>
+      <main className='main-about-me'>
         
         <figure>
           <img className='about-me-image' src={aboutMeImage} alt="My pitcture" />
@@ -77,11 +77,13 @@ export const AboutMe = () => {
 
           </div>
 
+          <button onClick={()=>{location.href='/projects'}} className='go-to-projects-button'>Projects</button>
+
+          <button className='go-to-projects-button'>CV</button>
+
+
         </div>
 
-      <button>Projects</button>
-
-      <button>CV</button>
 
       </main>
     </>

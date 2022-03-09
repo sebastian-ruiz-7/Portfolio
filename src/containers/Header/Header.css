@@ -9,7 +9,6 @@
 }
 
 .center-navigation-menu{
-    visibility: collapse;
     width: 32px;
     height: 32px;
 }
@@ -21,12 +20,9 @@
 }
 
 
-@media only screen and (min-width:700px){
+@media only screen and (min-width:701px){
     .header-container{
         justify-content: space-around;
         padding: 0px;
-    }
-    .ham-menu-container{
-        display: none;
     }
 }

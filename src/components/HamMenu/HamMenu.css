@@ -6,6 +6,10 @@
     justify-content: space-between;
 }
 
+.ham-menu-container:hover{
+    cursor: pointer;
+}
+
 .ham-menu__line{
     width: 100%;
     height: 6px;
@@ -19,7 +23,7 @@
     
 }
 
-@media only screen and (min-width:700px){
+@media only screen and (min-width:701px){
     .ham-menu-container{
         display: none;
     }
