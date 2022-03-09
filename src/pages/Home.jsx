@@ -1,7 +1,7 @@
 //Import dependencies
 import React from 'react';
 //Import containers
-import { Header } from '@containers/Header.jsx/Header';
+import { Header } from '@containers/Header/Header';
 //Import assets
 import programador from '@assets/programador.png'
 import flowers from '@assets/flores.svg'
