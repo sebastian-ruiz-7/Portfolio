@@ -5,6 +5,6 @@ import './InitialLogo.css'
 
 export const InitialLogo = () => {
   return (
-    <h1 className='initials-logo'>SR</h1>
+    <h1 onClick={()=>location.href='/'} className='initials-logo'>SR</h1>
   )
 }

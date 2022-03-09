@@ -1,0 +1,24 @@
+.modal-nav-container{
+    color: var(--text-color);
+}
+
+.modal-nav__close{
+    position: relative;
+    top: -100px;
+    left: 165px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.modal-nav__text{
+    font-size: 2rem;
+    margin: 50px 0px;
+}
+
+.modal-nav__text:hover{
+    cursor: pointer;
+}
+
+.modal-nav__close:hover{
+    cursor: pointer;
+}

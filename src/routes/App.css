@@ -9,11 +9,17 @@
     --md: 16px;
     --lg: 18px;
     --blue: #1c64ff;
-    --black: #504c4c;
+    /* --background: #504c4c; */
+    --background: #0D0C1D;
+    --text-color: white;
+
 }
 
 body {
-    margin: 0;
+    margin: 0px;
+    border: none;
     font-family: 'Montserrat', sans-serif;  
-   /* background-color: var(--black); */
+    background-color: var(--background);
+    color: var(--text-color);
+    box-sizing: border-box;
 }

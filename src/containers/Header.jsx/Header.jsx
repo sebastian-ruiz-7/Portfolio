@@ -3,25 +3,32 @@ import React from 'react'
 //Import components
 import { InitialLogo } from '@components/InitialsLogo/InitialLogo';
 import { NavigationMenu } from '@components/NavigationMenu/NavigationMenu';
-//Import assets
-import hamMenu from '@assets/menu.png'
+import { HamMenu } from '@components/HamMenu/HamMenu';
+import { Modal } from '@containers/Modal/Modal';
+import { NavMenuModal } from '@components/NavMenuModal/NavMenuModal';
+//Import Context
+import { AppContext } from '@context/AppContext'
 //Import styles
 import './Header.css'
-import { HamMenu } from '@components/HamMenu/HamMenu';
 
 export const Header = () => {
+
+  const {modal} = React.useContext(AppContext);
+  
   return (
     <header className='header-container'>
 
-        <InitialLogo className='initial-logo'/>
+        <InitialLogo/>
 
-        <NavigationMenu className='navigation-menu'/>
+        <NavigationMenu/>
 
         <div className='center-navigation-menu'></div>
 
         <HamMenu />
 
-        {/* <img className='ham-menu-image' src={hamMenu} alt="" /> */}
+        {modal && <Modal>
+          <NavMenuModal />
+        </Modal>}
 
     </header>    
   )

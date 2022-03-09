@@ -1,6 +1,8 @@
 .nav-container{
     width: 60%;
     min-width: 600px;
+    box-sizing: border-box;
+    /* visibility: collapse; */
 }
 
 .nav__ul{
@@ -11,8 +13,8 @@
 
 .nav__li{
     font-size: 2.4rem;
-    color: var(--black);
-    /* font-weight: bold; */
+    color: var(--text-color);
+    font-weight: 300;
     list-style: none;
 }
 
@@ -21,8 +23,8 @@
     cursor: pointer;
 }
 
-@media (max-width: 700px) {
+@media only screen and (min-width:330px) and (max-width:700px) {
     .nav-container{
-        visibility: collapse;
+        display: none;
     }
 }
