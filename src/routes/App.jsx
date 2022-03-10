@@ -21,7 +21,6 @@ const App = () => {
   const inititalState=useInitialState()
   return (
     <AppContext.Provider value={inititalState} >
-      <HashRouter>
         <Routes>
           <Route exact path="/" element= {<Home />}/>
           <Route exact path="/home" element= {<Home />}/>
@@ -31,7 +30,6 @@ const App = () => {
           <Route exact path="/pruebas" element= {<Pruebas />}/>
           <Route path="*" element={< NotFound />} />
         </Routes>
-      </HashRouter>
     </AppContext.Provider>
   );
 };
