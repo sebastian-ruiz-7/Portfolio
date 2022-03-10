@@ -1,6 +1,6 @@
 //Import dependencies
 import React from 'react';
-import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import {HashRouter,Route,Routes} from 'react-router-dom'
 //Import pages
 import { Home } from '@pages/Home';
 import { AboutMe } from '../pages/AboutMe';
@@ -21,7 +21,7 @@ const App = () => {
   const inititalState=useInitialState()
   return (
     <AppContext.Provider value={inititalState} >
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route exact path="/" element= {<Home />}/>
           <Route exact path="/home" element= {<Home />}/>
@@ -31,7 +31,7 @@ const App = () => {
           <Route exact path="/pruebas" element= {<Pruebas />}/>
           <Route path="*" element={< NotFound />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </AppContext.Provider>
   );
 };
