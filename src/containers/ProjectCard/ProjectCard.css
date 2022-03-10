@@ -1,0 +1,60 @@
+.project-card-container{
+    width: 90%;
+    margin: 30px auto;
+    box-sizing: border-box;
+    max-width: 500px;
+    min-width: 320px;
+    border: solid 2px var(--grey);
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.project__image{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project__title{
+    color: var(--text-color);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.project__description{
+    text-align: justify;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    padding: 12px;
+}
+
+.project-repo-button{
+    display: flex;
+    justify-content: center;
+    background: var(--grey);
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 8px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.project-repo-button:hover{
+    cursor: pointer;
+}
+
+.project-repo-button p{
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.github-icon{
+    width: 32px;
+    height: 32px;
+    padding-left: 12px;
+}
+
+@media only screen and (min-width:1000px){
+    .project-card-container{
+        height: 470px;
+    }
+}

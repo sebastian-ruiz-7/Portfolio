@@ -1,0 +1,17 @@
+@media only screen and (min-width:330px) and (max-width:999px){
+    .main-projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    .main-projects{
+        display: grid;
+        place-content: center;
+        gap: 20px;
+        padding-top: 50px;
+        grid-template-columns: repeat(auto-fill,500px);
+    }
+}

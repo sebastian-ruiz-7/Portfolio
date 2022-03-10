@@ -1,18 +1,12 @@
 :root{
     font-size: 62.5%;
-    /* --white: #FFFFFF;
-    --black: #000000;
-    --text-input-field: #F7F7F7;
-    --orange: #FFCFAD;
-    --blue: #0FBED2; */
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
     --blue: #1c64ff;
-    /* --background: #504c4c; */
     --background: #0D0C1D;
     --text-color: white;
-
+    --grey: #94958B;
 }
 
 body {

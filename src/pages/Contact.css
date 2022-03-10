@@ -34,9 +34,9 @@
 .form__input{
     width: 100%;
     background-color: var(--background);
-    color: #94958B;
+    color: var(--grey);
     border-radius: 8px;
-    border: 2px solid #94958B;
+    border: 2px solid var(--grey);
     margin: 10px 0px;
     box-sizing: border-box;
     padding: 16px;
@@ -52,7 +52,7 @@
 }
 
 .form__input:focus{
-    color: #94958B;
+    color: var(--grey);
     border: 2px solid var(--blue);
 }submit-button
 
@@ -66,9 +66,9 @@
     margin: 12px auto;
     display: block;
     background-color: var(--background);
-    border: 2px solid #94958B;
+    border: 2px solid var(--grey);
     box-sizing: border-box;
     height: 44px;
-    color: #94958B;
+    color: var(--grey);
     border-radius: 8px;
 }

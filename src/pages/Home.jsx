@@ -3,7 +3,7 @@ import React from 'react';
 //Import containers
 import { Header } from '@containers/Header/Header';
 //Import assets
-import programador from '@assets/programador.png'
+import programador from '@assets/programmer.png'
 import flowers from '@assets/flores.svg'
 //Import styles
 import './Home.css'
@@ -25,7 +25,7 @@ const Home = () => {
 
         <p className='home-text'>I'm a Fullstack Developer with great passion to create digital products. Ready to colaborate in new web projects</p>
 
-        <button className='home-button'>About Me</button>
+        <button onClick={()=>location.href='/about-me'} className='home-button'>About Me</button>
 
 
       </div>
