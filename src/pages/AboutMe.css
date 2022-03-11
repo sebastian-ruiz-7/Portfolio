@@ -70,6 +70,10 @@
     align-items: center;
 }
 
+.link-to-cv{
+    text-decoration: none;
+}
+
 .go-to-projects-button{
     width: 90%;
     margin: 15px auto;
