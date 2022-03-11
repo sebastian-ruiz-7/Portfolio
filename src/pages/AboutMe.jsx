@@ -81,8 +81,6 @@ export const AboutMe = () => {
 
           <a className='link-to-cv' href="https://firebasestorage.googleapis.com/v0/b/portfolio-6af0e.appspot.com/o/Curriculum%20Nube.pdf?alt=media&token=832303d3-8cde-44a8-882d-04791b810c91" target="_blank"><button className='go-to-projects-button'>CV</button></a>
           
-
-
         </div>
 
 
