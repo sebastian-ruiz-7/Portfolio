@@ -79,7 +79,11 @@ export const AboutMe = () => {
 
           <button onClick={()=>{location.href='/projects'}} className='go-to-projects-button'>Projects</button>
 
+<<<<<<< HEAD
           <a className='link-to-cv' href="https://firebasestorage.googleapis.com/v0/b/portfolio-6af0e.appspot.com/o/Curriculum%20Nube.pdf?alt=media&token=832303d3-8cde-44a8-882d-04791b810c91" target="_blank"><button className='go-to-projects-button'>CV</button></a>
+=======
+          <a className='link-to-cv' href="https://firebasestorage.googleapis.com/v0/b/portfolio-6af0e.appspot.com/o/Curriculum%20Nube.pdf?alt=media&token=f40dd066-1775-4aaa-ae9e-aaf87436ed0f" target="_blank"><button className='go-to-projects-button'>CV</button></a>
+>>>>>>> fe410231f981fa373dc8e45ade939c4289c168a0
           
         </div>
 
